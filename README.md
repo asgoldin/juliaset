@@ -28,6 +28,7 @@ createjuliaset(x,y,n_iter,escape_tol,R)
 
 ```
 using PyPlot
+using juliaset
 x = collect(-2:.005:2);
 y = collect(-2:.005:2);
 n_iter = 100;
