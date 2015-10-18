@@ -1,5 +1,5 @@
 using juliaset
 using Base.Test
 
-# write your own tests here
-@test 1 == 1
+# non-divergence check;
+@test juliaset.createjuliaset(ones(1),zeros(1),10,100,0) == 11*ones(1,1)
